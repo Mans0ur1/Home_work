@@ -6,4 +6,5 @@ void main() {
   // The variable must have a data type.
   // age = '20'; // Error
   int age = 20; // Correct
+  List m = [1, 2, 5, 4];
 }

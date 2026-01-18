@@ -8,6 +8,7 @@ void main() {
   // name = 10; // Error: a String variable cannot be assigned an int
 
   // dynamic is a data type that can take any value
+  // dynamic is a week data type
   // It can change its data type after initialization
   dynamic age = 22;
   age = 'Ali'; // This is allowed

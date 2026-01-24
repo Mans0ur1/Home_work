@@ -1,6 +1,7 @@
-/*Write a Dart program that declares a variable with a double data type, assigns it a
-value of 12.5, and prints it to the console.*/
+import 'dart:io';
+
 void main() {
-  double number = 12.5;
-  print(number);
+  print("Enter a floating number:");
+  double number = double.parse(stdin.readLineSync()!);
+  print("The entered num is $number");
 }

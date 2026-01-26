@@ -7,6 +7,9 @@ void main() {
     'UK': 'United Kingdom',
     'FR': 'France',
   };
+  countryCode.entries.map((e) {
+    print(e);
+  });
   print(countryCode['EG']);
   countryCode['QA'] = 'Qatar';
   print(countryCode.length);

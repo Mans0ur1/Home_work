@@ -5,6 +5,7 @@ void main() {
   int age = 19;
   bool hasParent = true;
   String area = 'restricted'; 
+  
     if (age < 18) {
     if (!hasParent) {
       print('Access denied'); 

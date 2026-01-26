@@ -5,7 +5,7 @@ void main() {
   Map<String, String?> env = {
     'APP_NAME': 'myapp',
     'VERSION': null,
-    'ENV': 'dev',
+    'ENV': 'dev', 
     'DATABASE_URL': null,
   };
 

@@ -13,6 +13,9 @@ void main() {
       countEachNames[name] = 1;
     }
   }
+ 
+  print(countEachNames);
+ 
   countEachNames.forEach((name, count) {
     if (count > 1) {
       print(name);

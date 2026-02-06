@@ -8,7 +8,7 @@ class Solution {
   bool isPalindrome(String phrase) {
     phrase = phrase.toLowerCase();
     String newPhrase = '';
-
+    //********** 
     for (int i = 0; i < phrase.length; i++) {
       if (RegExp(r'^[a-z0-9]$').hasMatch(phrase[i])) {
         newPhrase += phrase[i];

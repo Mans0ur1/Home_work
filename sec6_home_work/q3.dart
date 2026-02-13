@@ -11,5 +11,5 @@ void main() {
   Person person1 = Person('ali', 40);
   person1.age = 41;
   
-  print('Name: ${person1.name}, Age: ${person1.age}')
+  print('Name: ${person1.name}, Age: ${person1.age}';
 }

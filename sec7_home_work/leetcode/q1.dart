@@ -11,6 +11,7 @@ class Solution {
         if (profit > maxProfit) {
           maxProfit = profit;
         }
+        
       }
     }
     return maxProfit;

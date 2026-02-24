@@ -20,8 +20,9 @@ class Note {
 }
 
 class NotesApp {
-  List<Note> notes = [];
+  List<Note> _notes = [];
 
+  get notes => _notes;
   void createNote(String title, content) {
     Note newNote = Note(title, content);
     notes.add(newNote);

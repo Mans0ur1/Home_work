@@ -38,6 +38,7 @@ class FeaturesCard extends StatelessWidget {
               children: [
                 Text(title, style: TextStyle(fontWeight: .bold)),
                 Text(
+                  
                   description,
                   style: TextStyle(fontSize: 10, color: Colors.grey),
                 ),

@@ -51,7 +51,7 @@ class HomeView extends StatelessWidget {
               ),
               FeatureSection(features: features, ),
               SizedBox(
-                height: 50,
+                height: 150,
               ),
                Row(
                   spacing: 8,
